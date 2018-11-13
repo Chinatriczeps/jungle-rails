@@ -47,9 +47,9 @@ group :development, :test do
   gem 'dotenv-rails'
 end
 
-%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
-  gem lib, :git => "https://github.com/rspec/#{lib}.git", :branch => 'master'
-end
+# %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
+#   gem lib, :git => "https://github.com/rspec/#{lib}.git", :branch => 'master'
+# end
 
 
 group :development do
